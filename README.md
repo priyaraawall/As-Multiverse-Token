@@ -1,10 +1,10 @@
-# AS MULTIVERSE Tokens Bot
+# AS MULTIVERSE TOKENS BOT
 
 A Telegram bot built in **Node.js** for manually distributing **AS MULTIVERSE system APK tokens** to users.
 
 > This is one of many bots developed and maintained by **[popeye68](https://github.com/popeye68)**. More public bots will be released soon. Stay tuned!
 
-> **Live Bot**: [@rwa_tokensbot](https://t.me/rwa_tokensbot)
+> **Live Bot**: [AS MULTIVERSE](https://t.me/rwa_tokensbot)
 
 ---
 
@@ -33,6 +33,7 @@ A Telegram bot built in **Node.js** for manually distributing **AS MULTIVERSE sy
 | `/token`   | Get Rojgar With Ankit token         |
 | `/cwtoken` | Get CareerWill token                |
 | `/rgtoken` | Get RG Vikramjeet token             |
+| `/apk` | Get All Apk files
 
 ---
 
@@ -60,7 +61,7 @@ Set your Koyeb/Heroku/Replit public URL as the monitor endpoint.
 
 The bot uses a `.env` file for secure variable management.
 
-Create a `.env` file with TOKEN = Don't add token here.
+Create a `.env` file with TOKEN = Your bot token
 
 ### On Koyeb:
 - Go to your bot service.
@@ -107,7 +108,7 @@ Replace the following in your code for the bot to work correctly:
 
 ## Example `.env`
 
-TOKEN=Don't add token here.
+TOKEN=your_bot_token 
 
 ---
 
