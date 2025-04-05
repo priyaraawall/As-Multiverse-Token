@@ -37,16 +37,17 @@ A Telegram bot built in **Node.js** for manually distributing **AS MULTIVERSE sy
 
 ---
 
-## Deploy the Bot
+### Deploy the Bot
 
-### Deploy to Koyeb
-[![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy)
+#### **Koyeb**
+[![Deploy on Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=as-multiverse-token&repository=Popeye68%2FAs-Multiverse-Token&branch=main&instance_type=free&instances_min=0&autoscaling_sleep_idle_delay=300)
 
-### Deploy to Heroku
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+#### **Heroku**
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Popeye68/As-Multiverse-Token)
 
-### Run on Replit
-[![Run on Replit](https://replit.com/badge/github/popeye68/As-Multiverse-Token)](https://replit.com)
+#### **Replit**
+[![Run on Replit](https://replit.com/badge/github/Popeye68/As-Multiverse-Token)](https://replit.com/github/Popeye68/As-Multiverse-Token)
+
 
 ---
 
