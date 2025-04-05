@@ -6,11 +6,15 @@ A Telegram bot built in **Node.js** for manually distributing **AS MULTIVERSE sy
 
 > **Live Bot**: [AS MULTIVERSE](https://t.me/rwa_tokensbot)
 
+
+> **OFFICIAL BOTS CHANNEL**: [TECH ERROR](https://t.me/JoinBotsChannel)
+Here you'll get hacking bots.
+
 ---
 
 ## Developer
 
-**GitHub**: [popeye68](https://github.com/popeye68)
+**GitHub**: [popeye68](https://github.com/popeye68) 
 
 ---
 
