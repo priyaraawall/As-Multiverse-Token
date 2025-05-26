@@ -12,7 +12,7 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 const app = express();
 const PORT = process.env.PORT || 3000;
 //your grouo or channel link
-const GROUP_LINK = "https://t.me/ASMULTIVERSE_TOKEN";
+const GROUP_LINK = "https://t.me/ALONE_MODER_KING";
 
 // add your tokens here 
 const tokens = [
@@ -69,7 +69,7 @@ bot.on("allowed_message", (msg) => {
         disable_web_page_preview: true,
         reply_markup: {
           inline_keyboard: [
-            [{ text: "JOIN CHANNEL 🚀", url: GROUP_LINK }],
+            [{ text: "JOIN CHANNEL 🚀", url: https://t.me/ALONE_MODER_KING }],
             [{ text: "GET TOKEN 🛠️", callback_data: "GET_TOKEN" }]
           ]
         }
@@ -447,4 +447,4 @@ bot.on("callback_query", (callbackQuery) => {
 app.get("/", (req, res) => res.send("Bot is running!"));
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-//bot by @popeye68
+//bot by @alone_boy_067
