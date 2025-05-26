@@ -63,7 +63,7 @@ bot.on("message", (msg) => {
 bot.on("allowed_message", (msg) => {
   if (msg.text === "/start") {
     bot.sendMessage(msg.chat.id, 
-      "👋 ʜᴇʏ ᴀꜱᴘɪʀᴀɴᴛꜱ! 🚀 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ʜᴜʙ ꜰᴏʀ ɢᴏᴠᴛ. ᴊᴏʙ ᴘʀᴇᴘᴀʀᴀᴛɪᴏɴ—ꜱᴛᴀʏ ꜰᴏᴄᴜꜱᴇᴅ, ꜱᴛᴀʏ ᴀʜᴇᴀᴅ! 📚💪\nꜰᴏʀ ᴄᴏɴᴛᴀᴄᴛ 📬 ᴜꜱᴇ /help . \nᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ♻️\n\n[𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)", 
+      "👋 ʜᴇʏ ᴀꜱᴘɪʀᴀɴᴛꜱ! 🚀 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ʜᴜʙ ꜰᴏʀ ɢᴏᴠᴛ. ᴊᴏʙ ᴘʀᴇᴘᴀʀᴀᴛɪᴏɴ—ꜱᴛᴀʏ ꜰᴏᴄᴜꜱᴇᴅ, ꜱᴛᴀʏ ᴀʜᴇᴀᴅ! 📚💪\nꜰᴏʀ ᴄᴏɴᴛᴀᴄᴛ 📬 ᴜꜱᴇ /help . \nᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ♻️\n\n[𝘼𝙇𝙊𝙉𝙀 𝙈𝙊𝘿𝘿𝙀𝙍 𝙆𝙄𝙉𝙂](https://t.me/ALONE_MODER_KING)", 
       {
         parse_mode: "Markdown",
         disable_web_page_preview: true,
