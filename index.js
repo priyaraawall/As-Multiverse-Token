@@ -12,7 +12,7 @@ const bot = new TelegramBot(TOKEN, { polling: true });
 const app = express();
 const PORT = process.env.PORT || 3000;
 //your grouo or channel link
-const GROUP_LINK = "https://t.me/ASMULTIVERSE_TOKEN";
+const GROUP_LINK = "https://t.me/ALONE_MODER_KING";
 
 // add your tokens here 
 const tokens = [
@@ -63,7 +63,7 @@ bot.on("message", (msg) => {
 bot.on("allowed_message", (msg) => {
   if (msg.text === "/start") {
     bot.sendMessage(msg.chat.id, 
-      "👋 ʜᴇʏ ᴀꜱᴘɪʀᴀɴᴛꜱ! 🚀 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴜʟᴛɪᴍᴀᴛᴇ ʜᴜʙ ꜰᴏʀ ɢᴏᴠᴛ. ᴊᴏʙ ᴘʀᴇᴘᴀʀᴀᴛɪᴏɴ—ꜱᴛᴀʏ ꜰᴏᴄᴜꜱᴇᴅ, ꜱᴛᴀʏ ᴀʜᴇᴀᴅ! 📚💪\nꜰᴏʀ ᴄᴏɴᴛᴀᴄᴛ 📬 ᴜꜱᴇ /help . \nᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ♻️\n\n[𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)", 
+      "👋 ʜᴇʏ ᴀꜱᴘɪʀᴀɴᴛꜱ! 🚀 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴜnʟᴛɪᴍᴀᴛᴇ ʜᴜʙ ꜰᴏʀ ɢᴏᴠᴛ. ᴊᴏʙ ᴘʀᴇᴘᴀʀᴀᴛɪᴏɴ—ꜱᴛᴀʏ ꜰᴏᴄᴜꜱᴇᴅ, ꜱᴛᴀʏ ᴀʜᴇᴀᴅ! 📚💪\nꜰᴏʀ ᴄᴏɴᴛᴀᴄᴛ 📬 ᴜꜱᴇ /help . \nᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ꜰᴏʀ ᴜᴘᴅᴀᴛᴇꜱ ♻️\n\n[ 🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰 ](https://t.me/ALONE_MODER_KING)", 
       {
         parse_mode: "Markdown",
         disable_web_page_preview: true,
@@ -111,7 +111,7 @@ bot.onText(/\/token/, (msg) => {
     }
   });
 // add your channel or group 
-  bot.sendMessage(chatId, "📌 *ʜᴇʀᴇ ᴀʀᴇ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛᴏᴋᴇɴꜱ ꜰᴏʀ ʏᴏᴜ\nᴇᴠᴇʀʏᴛʜɪɴɢ ɪꜱ 1000% ꜰʀᴇᴇ ʙʏ ᴍᴀᴅxᴀʙʜɪ*\n[𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)", {
+  bot.sendMessage(chatId, "📌 *ʜᴇʀᴇ ᴀʀᴇ ᴀʟʟ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛᴏᴋᴇɴꜱ ꜰᴏʀ ʏᴏᴜ\nᴇᴠᴇʀʏᴛʜɪɴɢ ɪꜱ 1000% ꜰʀᴇᴇ ʙʏ ALONE MODDER KING*\n[🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰](https://t.me/ALONE_MODER_KING)", {
     parse_mode: "Markdown",
     disable_web_page_preview: true,
     reply_markup: { inline_keyboard: inlineKeyboard },
@@ -142,7 +142,7 @@ bot.on("callback_query", async (query) => {
     await bot.sendMessage(chatId, `ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴛᴏᴋᴇɴ 🔑 ꜰᴏʀ\n*${selectedToken.name}*`, { parse_mode: "Markdown" });
 
     setTimeout(() => {
-      bot.sendMessage(chatId, `\`\`\`\n${selectedToken.value}\n\`\`\`WORKING✅  [𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)`, { parse_mode: "MarkdownV2",disable_web_page_preview: true, });
+      bot.sendMessage(chatId, `\`\`\`\n${selectedToken.value}\n\`\`\`WORKING✅  [𝘼LONE](🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰)`, { parse_mode: "MarkdownV2",disable_web_page_preview: true, });
     }, 200);
   }
 });
@@ -165,11 +165,11 @@ bot.on("callback_query", async (query) => {
   await bot.sendMessage(chatId, `🔑 ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴛᴏᴋᴇɴ ꜰᴏʀ \n*${selectedSubToken.name}*`, { parse_mode: "Markdown" });
 
   setTimeout(() => {
-    bot.sendMessage(chatId, `\`\`\`\n${selectedSubToken.value}\n\`\`\`[𝘼𝙎 𝙈𝙐𝙇𝙏𝙸𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)`, { parse_mode: "MarkdownV2",disable_web_page_preview: true, });
+    bot.sendMessage(chatId, `\`\`\`\n${selectedSubToken.value}\n\`\`\`[🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰](https://t.me/ALONE_MODER_KING)`, { parse_mode: "MarkdownV2",disable_web_page_preview: true, });
   }, 200);
 });
 
-const ADMIN_CHAT_ID = "your_chatid"; // Replace with your actual admin chat ID
+const ADMIN_CHAT_ID = "5882014352"; // Replace with your actual admin chat ID
 
 bot.onText(/\/help/, (msg) => {
   const chatId = msg.chat.id;
@@ -189,7 +189,7 @@ bot.onText(/\/help/, (msg) => {
 🔸 /cwtoken - Get Career Will Token  
 🔸 /rgtoken - Get RG Vikramjeet Token  
 
-[𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)  
+[🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰](https://t.me/ALONE_MODER_KING)  
 
 Bot 🤖 is still under development. If you have any issues, please contact support 🔥.
   `;
@@ -199,7 +199,7 @@ Bot 🤖 is still under development. If you have any issues, please contact supp
     disable_web_page_preview: true,
     reply_markup: {
       inline_keyboard: [
-        [{ text: "📞 Contact Admin", callback_data: "CONTACT_ADMIN" }]
+        [{ text: "📞 Contact Admin", callback_data: "@alone_boy_067" }]
       ]
     }
   });
@@ -436,7 +436,7 @@ bot.on("callback_query", (callbackQuery) => {
   } else if (data.startsWith("get_")) {
     const tokenKey = data.replace("get_", "");
     if (rgTokens[tokenKey]) {
-      bot.sendMessage(chatId, `*${rgTokens[tokenKey].name}*\n\`\`\`\n${rgTokens[tokenKey].value}\n\`\`\`WORKING✅   [𝘼𝙎 𝙈𝙐𝙇𝙏𝙄𝙑𝙀𝙍𝙎𝙀](https://github.com/Popeye68/As-Multiverse-Token/)`, {
+      bot.sendMessage(chatId, `*${rgTokens[tokenKey].name}*\n\`\`\`\n${rgTokens[tokenKey].value}\n\`\`\`WORKING✅   [𝘼LONE](🇦 🇱 🇴 🇳 🇪 🇲 🇴 🇩 🇦 🇵 🇰)`, {
         parse_mode: "Markdown", disable_web_page_preview: true,
       });
     }
@@ -447,4 +447,4 @@ bot.on("callback_query", (callbackQuery) => {
 app.get("/", (req, res) => res.send("Bot is running!"));
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
-//bot by @popeye68
+//bot by @STINER_KING_OP
